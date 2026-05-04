@@ -1,3 +1,59 @@
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (uncomment if you DON'T want to upload data)
+# *.csv
+# *.xlsx
+# *.xls
+# *.json
+
+# Model checkpoints / saved models
+*.pth
+*.pt
+*.bin
+*.h5
+*.pickle
+*.pkl
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Jupyter notebook outputs (optional — uncomment to strip outputs before commit)
+*.ipynb
+
+# PyTorch / Torchvision temp files
+*.pth
+*.pt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
